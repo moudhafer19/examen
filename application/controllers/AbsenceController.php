@@ -1,5 +1,5 @@
 <?php
-class IndexController 
+class AbsenceController 
 {
 public function init()
 {
@@ -8,15 +8,13 @@ public function init()
 public function indexAction()
 {
 // action body
+echo 'toto';
+// action
 }
 public function listeAction()
 {
-// action body
-echo 'toto';
 }
-public function testAction()
+public function absenceAction()
 {
-// action body
-echo 'test';
 }
 }
